@@ -1,0 +1,5 @@
+Version History
+
+Version 0.1b
+Created: 1/15/2010
+Basic perl script to log data from the Neptune Apex to a database
