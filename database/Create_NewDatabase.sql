@@ -5,14 +5,14 @@ USE apex;
 -- Update user account below
 CREATE USER 'apex'@'localhost' IDENTIFIED BY '1234';
 GRANT ALL PRIVILEGES ON apex.* TO 'apex'@'localhost';
-FLUSH PRIVILEGES;
+
 
 
 
 
 
 --- No other changes needed below
-
+FLUSH PRIVILEGES;
 CREATE TABLE `device` (
   `deviceid` int NOT NULL AUTO_INCREMENT,
   `device_name` varchar(55) NOT NULL,
